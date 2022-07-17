@@ -7,22 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		415CAC33072CDFCD750A90FB /* Pods_TrinityTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FD1FD8E8030BCEDB4076E63 /* Pods_TrinityTest.framework */; };
 		E1461B5C288320C400861CC9 /* TrinityTestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1461B5B288320C400861CC9 /* TrinityTestApp.swift */; };
-		E1461B5E288320C400861CC9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1461B5D288320C400861CC9 /* ContentView.swift */; };
 		E1461B60288320C600861CC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1461B5F288320C600861CC9 /* Assets.xcassets */; };
 		E1461B63288320C600861CC9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1461B62288320C600861CC9 /* Preview Assets.xcassets */; };
+		E1A7C9432884230500DB3FA7 /* ContactDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A7C9422884230500DB3FA7 /* ContactDetailView.swift */; };
+		E1D275E6288416E3008B256C /* ContactModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1D275E5288416E3008B256C /* ContactModel.swift */; };
+		E1D275E828841883008B256C /* ContactsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1D275E728841883008B256C /* ContactsView.swift */; };
+		E1D275EA28841911008B256C /* contacts.json in Resources */ = {isa = PBXBuildFile; fileRef = E1D275E928841911008B256C /* contacts.json */; };
+		E1D275EE2884199D008B256C /* ContactsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1D275ED2884199D008B256C /* ContactsViewModel.swift */; };
+		E1D275F028841AAB008B256C /* ContactRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1D275EF28841AAB008B256C /* ContactRowView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1F0BC76688FAF991E76BB5C7 /* Pods-TrinityTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrinityTest.release.xcconfig"; path = "Target Support Files/Pods-TrinityTest/Pods-TrinityTest.release.xcconfig"; sourceTree = "<group>"; };
-		7FD1FD8E8030BCEDB4076E63 /* Pods_TrinityTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TrinityTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8256990C52A4EECAC54B6AB6 /* Pods-TrinityTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrinityTest.debug.xcconfig"; path = "Target Support Files/Pods-TrinityTest/Pods-TrinityTest.debug.xcconfig"; sourceTree = "<group>"; };
 		E1461B58288320C400861CC9 /* TrinityTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrinityTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1461B5B288320C400861CC9 /* TrinityTestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrinityTestApp.swift; sourceTree = "<group>"; };
-		E1461B5D288320C400861CC9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E1461B5F288320C600861CC9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E1461B62288320C600861CC9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E1A7C9422884230500DB3FA7 /* ContactDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDetailView.swift; sourceTree = "<group>"; };
+		E1D275E5288416E3008B256C /* ContactModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactModel.swift; sourceTree = "<group>"; };
+		E1D275E728841883008B256C /* ContactsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsView.swift; sourceTree = "<group>"; };
+		E1D275E928841911008B256C /* contacts.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = contacts.json; sourceTree = "<group>"; };
+		E1D275ED2884199D008B256C /* ContactsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsViewModel.swift; sourceTree = "<group>"; };
+		E1D275EF28841AAB008B256C /* ContactRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactRowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -30,37 +36,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				415CAC33072CDFCD750A90FB /* Pods_TrinityTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0516863DE248C66F9D0771E0 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				8256990C52A4EECAC54B6AB6 /* Pods-TrinityTest.debug.xcconfig */,
-				1F0BC76688FAF991E76BB5C7 /* Pods-TrinityTest.release.xcconfig */,
-			);
-			path = Pods;
-			sourceTree = "<group>";
-		};
-		3D42B5812EB2A150AF0AF77B /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				7FD1FD8E8030BCEDB4076E63 /* Pods_TrinityTest.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		E1461B4F288320C400861CC9 = {
 			isa = PBXGroup;
 			children = (
 				E1461B5A288320C400861CC9 /* TrinityTest */,
 				E1461B59288320C400861CC9 /* Products */,
-				0516863DE248C66F9D0771E0 /* Pods */,
-				3D42B5812EB2A150AF0AF77B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -76,7 +62,9 @@
 			isa = PBXGroup;
 			children = (
 				E1461B5B288320C400861CC9 /* TrinityTestApp.swift */,
-				E1461B5D288320C400861CC9 /* ContentView.swift */,
+				E1D275E928841911008B256C /* contacts.json */,
+				E1A7C945288431A300DB3FA7 /* Views */,
+				E1D275E4288416D4008B256C /* Model */,
 				E1461B5F288320C600861CC9 /* Assets.xcassets */,
 				E1461B61288320C600861CC9 /* Preview Content */,
 			);
@@ -91,6 +79,25 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		E1A7C945288431A300DB3FA7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E1D275E728841883008B256C /* ContactsView.swift */,
+				E1D275EF28841AAB008B256C /* ContactRowView.swift */,
+				E1A7C9422884230500DB3FA7 /* ContactDetailView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E1D275E4288416D4008B256C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E1D275E5288416E3008B256C /* ContactModel.swift */,
+				E1D275ED2884199D008B256C /* ContactsViewModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -98,7 +105,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E1461B66288320C600861CC9 /* Build configuration list for PBXNativeTarget "TrinityTest" */;
 			buildPhases = (
-				8E911536CB85D8BFC8DC7EC5 /* [CP] Check Pods Manifest.lock */,
 				E1461B54288320C400861CC9 /* Sources */,
 				E1461B55288320C400861CC9 /* Frameworks */,
 				E1461B56288320C400861CC9 /* Resources */,
@@ -152,6 +158,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E1461B63288320C600861CC9 /* Preview Assets.xcassets in Resources */,
+				E1D275EA28841911008B256C /* contacts.json in Resources */,
 				E1461B60288320C600861CC9 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -159,28 +166,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		8E911536CB85D8BFC8DC7EC5 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-TrinityTest-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 		E1788FA4288324D500851746 /* SwiftLint */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -206,8 +191,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E1461B5E288320C400861CC9 /* ContentView.swift in Sources */,
+				E1A7C9432884230500DB3FA7 /* ContactDetailView.swift in Sources */,
 				E1461B5C288320C400861CC9 /* TrinityTestApp.swift in Sources */,
+				E1D275EE2884199D008B256C /* ContactsViewModel.swift in Sources */,
+				E1D275E6288416E3008B256C /* ContactModel.swift in Sources */,
+				E1D275E828841883008B256C /* ContactsView.swift in Sources */,
+				E1D275F028841AAB008B256C /* ContactRowView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -330,7 +319,6 @@
 		};
 		E1461B67288320C600861CC9 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8256990C52A4EECAC54B6AB6 /* Pods-TrinityTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -360,7 +348,6 @@
 		};
 		E1461B68288320C600861CC9 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1F0BC76688FAF991E76BB5C7 /* Pods-TrinityTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

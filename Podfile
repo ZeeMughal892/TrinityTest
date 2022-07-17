@@ -7,5 +7,4 @@ target 'TrinityTest' do
 
   # Pods for TrinityTest
   pod 'SwiftLint'
-
 end

@@ -11,7 +11,7 @@ import SwiftUI
 struct TrinityTestApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContactsView()
         }
     }
 }
